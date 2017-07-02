@@ -1,0 +1,54 @@
+<!--Dic.wxml-->
+<view wx:if="{{detail==false}}">
+  <view class="content">抽测历史</view>
+  <image src="/images/setting.png" class="nav" bindtap="editButton"></image>
+  <text bindtap="editButton">编辑</text>
+  
+    <view class="table">
+    <view class="tr bg-w">
+      <view class="th">时间</view>
+      <view class="th">单词列表</view>
+      <view class="th ">错误个数</view>
+    </view>
+    <block wx:for="{{alllist}}" wx:key="{{code}}" >
+      <view class="tr bg-g" data-index="{{index}}" bindtap="tagChoose">
+        <view class="td">{{item.time}}</view>
+        <view class="td">List{{item.list}}</view>
+        <view class="td" wx:if="{{edit==false}}">{{item.number}}</view>
+        <view class="td" wx:if="{{edit==true}}">{{item.number}}<image src="/images/edit.png" class="nav" bindtap="tagChoose"></image></view>
+      </view>
+    </block>
+    </view>
+</view>
+
+<view wx:if="{{detail==true}}">
+  <view class="content">具体抽查</view>
+  <view class="content">{{alllist[id].time}}\tList{{alllist[id].list}}</view>
+  <view class="table">
+    <view class="tr bg-w">
+      <view class="th">单词</view>
+      <view class="th">音标</view>
+      <view class="th ">中文解释</view>
+    </view>
+    <block wx:for="{{currentItem}}" wx:key="{{code}}" >
+      <view class="tr bg-g" wx:if="{{index % 2 == 0}}">
+        <view class="td">{{item.word}}</view>
+        <view class="td">{{item.symbol}}</view>
+        <view class="td">{{item.meaning}}</view>
+      </view>
+      <view class="tr" wx:else>
+        <view class="td">{{item.word}}</view>
+        <view class="td">{{item.symbol}}</view>
+        <view class="td">{{item.meaning}}</view>
+    </view>
+    </block>
+    </view>
+
+    <view class="back">
+    <view class="correct" bindtap="back">
+      <view class="content">
+        返回历史抽查列表
+      </view>
+    </view>
+  </view>
+</view>

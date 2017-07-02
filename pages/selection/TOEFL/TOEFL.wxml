@@ -1,0 +1,252 @@
+<!--TOEFL.wxml-->
+<view wx:if="{{select==false}}" class="header" >
+    选择抽词目标\n
+</view>
+
+<view wx:if="{{finish==false}}">
+  <view wx:if="{{select==false}}" class="header" bindtap="List1">
+      List1
+  </view>
+  <view wx:if="{{select==false}}" class="header" bindtap="List2">
+      List2
+  </view>
+  <view wx:if="{{select==false}}" class="header" bindtap="List3">
+      List3
+  </view>
+  <view wx:if="{{select==false}}" class="header" bindtap="List4">
+      List4
+  </view>
+  <view wx:if="{{select==false}}" class="header" bindtap="List5">
+      List5
+  </view>
+  <view wx:if="{{access == true}}">
+    <view wx:if="{{select==false}}" class="header" bindtap="List6">
+        List6
+    </view>
+    <view wx:if="{{select==false}}" class="header" bindtap="List7">
+        List7
+    </view>
+    <view wx:if="{{select==false}}" class="header" bindtap="List8">
+        List8
+    </view>
+    <view wx:if="{{select==false}}" class="header" bindtap="List9">
+        List9
+    </view>
+    <view wx:if="{{select==false}}" class="header" bindtap="List10">
+        List10
+    </view>
+    <view wx:if="{{select==false}}" class="header" bindtap="List11">
+        List11
+    </view>
+    <view wx:if="{{select==false}}" class="header" bindtap="List12">
+        List12
+    </view>
+    <view wx:if="{{select==false}}" class="header" bindtap="List13">
+        List13
+    </view>
+    <view wx:if="{{select==false}}" class="header" bindtap="List14">
+        List14
+    </view>
+    <view wx:if="{{select==false}}" class="header" bindtap="List15">
+        List15
+    </view>
+    <view wx:if="{{select==false}}" class="header" bindtap="List16">
+        List16
+    </view>
+    <view wx:if="{{select==false}}" class="header" bindtap="List17">
+        List17
+    </view>
+    <view wx:if="{{select==false}}" class="header" bindtap="List18">
+        List18
+    </view>
+    <view wx:if="{{select==false}}" class="header" bindtap="List19">
+        List19
+    </view>
+    <view wx:if="{{select==false}}" class="header" bindtap="List20">
+        List20
+    </view>
+    <view wx:if="{{select==false}}" class="header" bindtap="List21">
+        List21
+    </view>
+    <view wx:if="{{select==false}}" class="header" bindtap="List22">
+        List22
+    </view>
+    <view wx:if="{{select==false}}" class="header" bindtap="List23">
+        List23
+    </view>
+    <view wx:if="{{select==false}}" class="header" bindtap="List24">
+        List24
+    </view>
+    <view wx:if="{{select==false}}" class="header" bindtap="List25">
+        List25
+    </view>
+    <view wx:if="{{select==false}}" class="header" bindtap="List26">
+        List26
+    </view>
+    <view wx:if="{{select==false}}" class="header" bindtap="List27">
+        List27
+    </view>
+    <view wx:if="{{select==false}}" class="header" bindtap="List28">
+        List28
+    </view>
+  </view>
+  <view wx:if="{{access == false}}">
+    <view wx:if="{{select==false}}" class="header" bindtap="requestunlock">
+        🔓List6
+    </view>
+    <view wx:if="{{select==false}}" class="header" bindtap="requestunlock">
+        🔓List7
+    </view>
+    <view wx:if="{{select==false}}" class="header" bindtap="requestunlock">
+        🔓List8
+    </view>
+    <view wx:if="{{select==false}}" class="header" bindtap="requestunlock">
+        🔓List9
+    </view>
+    <view wx:if="{{select==false}}" class="header" bindtap="requestunlock">
+        🔓List10
+    </view>
+    <view wx:if="{{select==false}}" class="header" bindtap="requestunlock">
+        🔓List11
+    </view>
+    <view wx:if="{{select==false}}" class="header" bindtap="requestunlock">
+        🔓List12
+    </view>
+    <view wx:if="{{select==false}}" class="header" bindtap="requestunlock">
+        🔓List13
+    </view>
+    <view wx:if="{{select==false}}" class="header" bindtap="requestunlock">
+        🔓List14
+    </view>
+    <view wx:if="{{select==false}}" class="header" bindtap="requestunlock">
+        🔓List15
+    </view>
+    <view wx:if="{{select==false}}" class="header" bindtap="requestunlock">
+        🔓List16
+    </view>
+    <view wx:if="{{select==false}}" class="header" bindtap="requestunlock7">
+        🔓List17
+    </view>
+    <view wx:if="{{select==false}}" class="header" bindtap="requestunlock">
+        🔓List18
+    </view>
+    <view wx:if="{{select==false}}" class="header" bindtap="requestunlock">
+        🔓List19
+    </view>
+    <view wx:if="{{select==false}}" class="header" bindtap="requestunlock">
+        🔓List20
+    </view>
+    <view wx:if="{{select==false}}" class="header" bindtap="requestunlock">
+        🔓List21
+    </view>
+    <view wx:if="{{select==false}}" class="header" bindtap="requestunlock">
+        🔓List22
+    </view>
+    <view wx:if="{{select==false}}" class="header" bindtap="requestunlock">
+        🔓List23
+    </view>
+    <view wx:if="{{select==false}}" class="header" bindtap="requestunlock">
+        🔓List24
+    </view>
+    <view wx:if="{{select==false}}" class="header" bindtap="requestunlock">
+        🔓List25
+    </view>
+    <view wx:if="{{select==false}}" class="header" bindtap="requestunlock">
+        🔓List26
+    </view>
+    <view wx:if="{{select==false}}" class="header" bindtap="requestunlock">
+        🔓List27
+    </view>
+    <view wx:if="{{select==false}}" class="header" bindtap="requestunlock">
+        🔓List28
+    </view>
+  </view>
+
+  <view wx:if="{{select==true}}" class="header" >
+      List{{list+1}} 抽词
+  </view>
+  <view wx:if="{{select==true}}"  class="weui-progress">
+    <view class="weui-progress__bar">
+        <progress percent="{{process}}" stroke-width="3" />
+    </view>
+  </view>
+
+  <view wx:if="{{select==true}}" class="word" >
+      {{word}}
+  </view>
+
+  <view wx:if="{{select==true}}" class="context" bindtap="requestTap">
+      <view class="request">
+        <view class="content">
+          <text>背好了</text>
+        </view>
+      </view>
+  </view>
+
+  <view wx:if="{{select==true && wordcheck==true}}" class="translation">
+      参考解释：\n
+      {{meaning}}
+  </view>
+
+  <view wx:if="{{select==true && wordcheck==true}}" class="bottom">
+    <view class="correct" bindtap="correct">
+      <view class="content">
+        正确
+      </view>
+    </view>
+    <view class="wrong" bindtap="wrong">
+      <view class="content">
+        错误
+      </view>
+    </view>
+  </view>
+
+    <view wx:if="{{select==true}}" class="back">
+      <view class="correct" bindtap="back">
+        <view class="content">
+          返回List选择
+        </view>
+      </view>
+    </view>
+
+</view>
+
+<view wx:if="{{finish==true}}">
+  <view class="title" >
+      自助抽词完成！
+  </view>
+  <view class="result" >
+      <text>总计抽词：{{wordnumber}}个\n</text>
+      <text>正确个数：{{correct}}个\n</text>
+      <text>错误个数：{{wrong}}个\n</text>
+      <text>总正确率：{{correctper}}%\n</text>
+  </view>
+  <view class="back">
+    <view class="correct" bindtap="back">
+      <view class="content">
+        返回List选择
+      </view>
+    </view>
+  </view>
+
+  <view class="content">需要加强的词汇</view>
+  <view class="table">
+  <view class="tr bg-w">
+    <view class="th">单词</view>
+    <view class="th">音标</view>
+    <view class="th ">中文解释</view>
+  </view>
+  <block wx:for="{{wronglist}}" wx:key="{{code}}">
+    <view class="tr bg-g" wx:if="{{index % 2 == 0}}">
+      <view class="td">{{item.word}}</view>
+      <view class="td">{{item.symbol}}</view>
+      <view class="td">{{item.meaning}}</view>
+    </view>
+    <view class="tr" wx:else>
+      <view class="td">{{item.word}}</view>
+      <view class="td">{{item.symbol}}</view>
+      <view class="td">{{item.meaning}}</view>
+    </view>
+  </block>
+</view>
+</view>

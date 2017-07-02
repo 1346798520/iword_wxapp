@@ -1,0 +1,35 @@
+<!--error.wxml-->
+<view class="container">
+  <view class="weui-msg__icon-area">
+      <icon type="info" size="93"></icon>
+  </view>
+
+  <view class="warning">
+    <text>提 示  Information</text>
+  </view>
+
+  <view class="warningcontext">
+    <text class="warningcontext">请联系管理员以获得相关信息\n</text>
+    <text class="warningcontext">Please contact admin</text>
+  </view>
+
+  <text class="context">序列号 Serial Number\n</text>
+  <input class="entercontext" placeholder="Serial Num" bindinput="userInput"/>
+  <text class="request" bindtap="request">请求序列号有效确认</text>
+
+  <view class="back">
+    <text class="back" bindtap="back">返 回</text>
+  </view>
+
+  <view class="weui-cells">
+    <view class="weui-cell">
+      <view class="weui-cell__bd">联系管理员</view>
+      <view class="weui-cell__ft">
+        <view class="contact_view">
+          <contact-button type="default-light" size="20" session-from="weapp"></contact-button>
+        </view>
+      </view>
+    </view>
+  </view>
+</view>
+

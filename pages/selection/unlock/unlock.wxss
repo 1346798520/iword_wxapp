@@ -1,0 +1,83 @@
+/* error.wxss */
+.warning{
+  margin-top: 20rpx;
+  font: 68rpx;
+  text-align: center;
+  color: dodgerblue
+}
+
+.warningcontext{
+  margin-top: 50rpx;
+  font: 42rpx;
+  text-align: center;
+  color: dodgerblue
+}
+
+.context{
+  margin-top: 50rpx;
+  font: 40rpx;
+  text-align: center;
+  color: black；
+}
+
+.entercontext{
+  margin-top: 20rpx;
+  font: 40rpx;
+  text-align: center;
+  color: black;
+  border: 1px solid gainsboro;
+}
+.request{
+  margin-top: 20rpx;
+  font: 40rpx;
+  text-align: center;
+  color: black；
+}
+
+.back{
+  margin-top: 100rpx;
+  font: 48rpx;
+  text-align: center;
+  color: black
+}
+.contact_view {
+  width: 30px;
+  height: 30px;
+  background-color: #f60;
+  text-align: center;
+  align-items: center;
+  padding-top: 10px;
+  border-radius: 20px;
+  line-height: 42px;
+  padding: 2px;
+}
+
+.weui-cells {
+  position: relative;
+  margin-top: 15rpx;
+  background-color: #FFFFFF;
+  line-height: 1.41176471;
+  font-size: 17px;
+}
+
+.weui-cell {
+  padding: 10px 15px;
+  position: relative;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+}
+
+.weui-cell__bd {
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+          flex: 1;
+}
+
+.weui-cell__ft {
+  text-align: right;
+  color: #999999;
+}

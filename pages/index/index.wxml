@@ -1,0 +1,11 @@
+<!--index.wxml-->
+<view class="container">
+  <view  class="userinfo">
+    <image class="userinfo-avatar" src="/images/icon.png" background-size="cover"></image>
+    <!--<text class="userinfo-nickname">{{userInfo.nickName}}</text>-->
+    <text class="userinfo-nickname">欢迎使用自助抽词</text>
+  </view>
+  <view class="usermotto">
+    <text class="user-motto" bindtap="enterTap">点 击 进 入</text>
+  </view>
+</view>

@@ -1,0 +1,30 @@
+<!--selection.wxml-->
+<view class="weui-cells">
+    <view class="weui-cell">
+      <view class="weui-cell__bd">
+        <image class="userinfo-avatar" src="{{userInfo.avatarUrl}}" background-size="cover"></image>
+      </view>
+      <view class="weui-cell__ft">
+        <view class="userinfoview">
+          <view>{{userInfo.nickName}}\n</view>
+          <view>{{userInfo.province}}\n</view>
+        </view>
+      </view>
+    </view>
+  </view>
+
+  <view class="header" bindtap="TOEFLlearn">
+    托福学词
+  </view>
+
+  <view class="header" bindtap="toTOEFL">
+    托福抽词
+  </view>
+
+  <view class="header" bindtap="tomyDic">
+    我的生词
+  </view>
+
+  <view wx:if="{{access == false}}" class="unlock" bindtap="unlockTap">
+    🔓解锁全部功能
+  </view>

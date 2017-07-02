@@ -1,0 +1,17 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/selection/selection",
+    "pages/selection/TOEFL/TOEFL",
+    "pages/selection/Dic/Dic",
+    "pages/selection/unlock/unlock",
+    "pages/selection/TOEFLlearn/TOEFLlearn"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "自助抽词",
+    "navigationBarTextStyle": "black"
+  }
+}
